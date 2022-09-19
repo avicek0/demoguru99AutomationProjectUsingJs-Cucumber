@@ -7,7 +7,7 @@
 ## Introduction
 
 ***
-"https://demo.guru99.com/insurance/v1/header.php" is automated using Cypress for login check, register, profile edit, creating and retrieving quotation and updating and viewing profile and finally logout operation.
+"https://demo.guru99.com/insurance/v1/header.php" is automated using Cypress for login check, register, profile edit, creating and retrieving quotation and updating and viewing profile and logout operation.
 
 ***
 
@@ -16,7 +16,7 @@
 ***
 + Visual Studio Code
 + JavaScript Language
-+ Cucumber
++ Mocha Framework For Testing
 + Cypress Test Runner
 + Testing Browser : Any one of these (Google Chrome, Microsoft Edge, Electron,etc.)
 
@@ -26,16 +26,16 @@
 
 ### Clone this repo/project 
 
-If you want to experiment with running this project, you'll need to [clone](https://github.com/avicek0/demoguru99AutomationUsingCypress.git) it first.
+If you want to experiment with running this project, you'll need to [clone](https://github.com/avicek0/demoguru99AutomationProjectUsingJs-Cucumber.git) it first.
 
 To clone this project in `Github`, run these commands in Gitbash:
 
 ```bash
 ## clone this repo to a local directory
-git clone https://github.com/avicek0/demoguru99AutomationUsingCypress.git
+git clone https://github.com/avicek0/demoguru99AutomationProjectUsingJs-Cucumber.git
 
 ## cd into the cloned repo
-cd demoguru99AutomationUsingCypress
+cd demoguru99AutomationProjectUsingJs-Cucumber
 
 ## install the node_modules(It will install all the required dependencies.)
 npm install
@@ -78,7 +78,7 @@ This error is handled inside commands.js file : cypress -> supports -> commands.
 ```
 
 ---
-### Test Case 2: Register New Member
+### Test Case 2: Register User
 ---
 
 
@@ -107,7 +107,7 @@ This error is handled inside commands.js file : cypress -> supports -> commands.
 ```
        
 ---
-### Test Case 3: Login Success 
+### Test Case 3: Login Succeed
 ---
 Success:
 + All the required values are posted with status code '200' and user is redirected to new page.
@@ -148,7 +148,7 @@ Error :
 + Since we have used Random Number to retrieve quotation, we will get 'Wrong Quotation Id' in the browser and it will not halt the system and won't print error in the console. So basically it is not an error.
 
 ---
-### Test Case 6: Opening Profile
+### Test Case 6: Open Profile
 ---
 Success :
 
@@ -176,4 +176,3 @@ Now we will be logged out to where we started and we will know that our test cas
 ## Happy Testing
 If you find problems with Cypress,
 + Consult the documentation
-+ find an existing [issue](https://github.com/avicek0/demoguru99AutomationUsingCypress/issues) or open a new one
