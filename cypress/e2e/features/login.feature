@@ -3,7 +3,7 @@ Feature: End to End Demoguru99 Automation
 
     Scenario: Website Login Check
     Given Open Demoguru99 page
-    When Fill in Login details
+    When Login Failure 
     When Register User
     When Login Succeed
     When Request Quotation

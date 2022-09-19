@@ -11,7 +11,7 @@ Given ('Open Demoguru99 page', function()
     cy.visit('https://demo.guru99.com/insurance/v1/index.php')
 })
 
-When('Fill in Login details', function()
+When('Login Failure', function()
 {
         homePage.getLoginEmail().type(this.data.nameOnlyy.Wemail)
 
