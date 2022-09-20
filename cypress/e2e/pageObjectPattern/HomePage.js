@@ -1,6 +1,3 @@
-//Only HomePage/Login is modeled to page Object Pattern.
-
-
 class HomePage
 
 {
@@ -22,6 +19,10 @@ class HomePage
        
     getAssertion(){
       return  cy.get('span > b')
+    }
+
+    getClickRegisterButton(){
+      return cy.get('a.btn')
     }
        
     
